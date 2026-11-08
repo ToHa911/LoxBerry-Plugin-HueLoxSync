@@ -20,9 +20,16 @@ virtuelle Eingänge oder neue Loxone-Objekte.
 
 ## Installation
 
-1. Neueste ZIP unter [Releases](../../releases/latest) herunterladen.
-2. LoxBerry → *System → Plugin-Verwaltung* → ZIP hochladen (oder „Plugin per URL installieren“ mit
-   dem Link der ZIP) → SecurePIN eingeben.
+Diese URL zeigt immer auf die neueste Version – zum Kopieren in den LoxBerry:
+
+```
+https://github.com/ToHa911/LoxBerry-Plugin-HueLoxSync/releases/latest/download/hue-lox-sync-loxberry.zip
+```
+
+1. URL oben kopieren (Kopier-Knopf rechts im Kasten).
+2. LoxBerry → *System → Plugin-Verwaltung* → „Plugin per URL installieren“: URL einfügen,
+   SecurePIN eingeben, installieren.
+   Alternativ die ZIP unter [Releases](../../releases/latest) herunterladen und dort hochladen.
 3. LoxBerry → *Plugins → Hue-Lox-Sync* → Reiter *Oberfläche*: Hue Bridge koppeln, Zuordnungen anlegen.
 
 ## Updates
