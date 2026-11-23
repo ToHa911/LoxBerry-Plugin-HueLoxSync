@@ -7,7 +7,7 @@ Loxone-Lichtbausteinen verbunden (ColorPickerV2, Dimmer, Schalter unter einer Li
 Änderungen in Loxone schalten Hue, Änderungen in der Hue-App erscheinen wieder in Loxone – ohne UDP,
 virtuelle Eingänge oder neue Loxone-Objekte.
 
-- Loxone-Zugang aus den Miniserver-Einstellungen des LoxBerry (eigene Zugangsdaten optional)
+- Loxone-Zugang aus den Miniserver-Einstellungen des LoxBerry
 - Alarm-Mails über den Mailserver des LoxBerry (eigener SMTP-Server optional)
 - Oberfläche in der LoxBerry-Plugin-Seite, geschützt durch die LoxBerry-Anmeldung
 - Eigener systemd-Dienst mit Watchdog, Eintrag im LoxBerry-Healthcheck
@@ -16,7 +16,8 @@ virtuelle Eingänge oder neue Loxone-Objekte.
 
 - LoxBerry 4.0 oder neuer (Debian 12 oder 13)
 - Internetzugang während der Installation (Node.js kommt als Debian-Paket `nodejs`)
-- Philips Hue Bridge (API v2) und ein im LoxBerry eingetragener Loxone Miniserver
+- Philips Hue Bridge (API v2) und ein im LoxBerry eingetragener Loxone Miniserver (lokale IP-Adresse,
+  Benutzer und Passwort)
 
 ## Installation
 
@@ -45,4 +46,5 @@ Pro Miniserver und Hue Bridge darf nur **eine** Hue-Lox-Sync-Instanz synchronisi
 ## Hinweise
 
 Dieses Repository enthält nur die Plugin-Pakete; entwickelt wird in einem privaten Repository. Die
-Plugin-ZIP enthält den vollständigen Quellcode (JavaScript). Lizenz: MIT (siehe `LICENSE`).
+Plugin-ZIP enthält den vollständigen Quellcode (JavaScript). Lizenz: MIT (siehe `LICENSE`, liegt auch der
+Plugin-ZIP bei).
